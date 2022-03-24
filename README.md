@@ -40,3 +40,8 @@ Apply Everything:
 terraform apply
 ```
 
+Uninstall:
+```bash
+terraform destroy -target=module.orc8r-app
+terraform destroy
+```
